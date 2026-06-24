@@ -1,8 +1,10 @@
 # Landing Page — Purificadores RENEW VIDA
 
-> **Status:** ✅ Pronta pra subir
-> **Última atualização:** 18/06/2026
-> **Hospedagem:** Netlify
+> **Status:** ✅ Online
+> **Última atualização:** 24/06/2026
+> **Hospedagem:** Render (Static Site, plano Free)
+> **URL de produção:** https://landing-purificadores-renew-vida.onrender.com
+> **Repositório:** https://github.com/pattysmaniotto/landing-purificadores-renew-vida
 
 ---
 
@@ -20,24 +22,17 @@ Esta é a landing page de vendas dos **purificadores de água** da RENEW VIDA.
 
 ---
 
-## 🚀 Como subir pra Netlify (passo a passo)
+## 🔄 Como funciona o deploy automático
 
-### Opção 1 — Arrastar e soltar (MAIS FÁCIL) ⭐
+**Toda vez que eu (Claude) salvar uma mudança aqui na pasta → site atualiza em ~30 segundos.** Você não precisa fazer nada.
 
-1. Abra no navegador: **https://app.netlify.com/drop**
-2. Loga com sua conta (ou cria uma de graça com email)
-3. **Arraste a pasta inteira `landing-page-filtros`** pra cima da área de drop
-4. Espera uns segundos (10-30s)
-5. Pronto! Aparece uma URL tipo `https://random-name-123.netlify.app`
-6. **(Opcional)** Clique em "Domain settings" pra mudar o nome ou conectar domínio próprio
+O fluxo é:
+1. Mudança é commitada localmente
+2. Push pro GitHub (`pattysmaniotto/landing-purificadores-renew-vida`)
+3. Render detecta automaticamente e faz o deploy
+4. URL pública atualiza sozinha
 
-### Opção 2 — Conectar com GitHub (mais profissional)
-
-1. Crie um repositório no GitHub (Patricia pode me chamar que eu ajudo)
-2. Suba todos os arquivos dessa pasta pro repositório
-3. No Netlify: "Add new site" → "Import from Git" → escolha o repositório
-4. Configure: Branch = `main`, Build command = (vazio), Publish directory = `.`
-5. Deploy automático!
+**Pra Patricia:** é só me pedir a mudança aqui no chat (ex: "troca a foto do produto X", "adiciona o refil Y", "muda o texto do FAQ") que eu cuido de tudo.
 
 ---
 
@@ -126,8 +121,8 @@ Se precisar mudar, edite em 3 lugares:
 
 | Coisa | Status |
 |---|---|
-| ✅ Landing page de telemedicina | No ar (Netlify) |
-| ✅ Landing page de purificadores | **PRONTA PRA SUBIR** (esse arquivo) |
+| ✅ Landing page de telemedicina | No ar (Netlify — **migrar pro Render em breve**) |
+| ✅ Landing page de purificadores | **Online (Render)** — https://landing-purificadores-renew-vida.onrender.com |
 | ⏳ Sistema WhatsApp automático | Aguardando aprovação Meta |
 | ⏳ Robô de monitoramento | Pronto pra codar |
 | ⏳ Backend (Render) | Aguardando tokens |
