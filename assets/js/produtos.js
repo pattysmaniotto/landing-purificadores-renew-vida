@@ -12,7 +12,7 @@ const PURIFICADORES = [
         preco: 5690,
         precoOriginal: 5716,
         parcela: '12x de R$ 569,99',
-        imagem: null,
+        imagem: 'assets/img/duo.webp',
         descricao: 'Une água natural e gelada em um único equipamento, com alcalinização.'
     },
     {
