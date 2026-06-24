@@ -426,18 +426,19 @@ h1, h2, h3, h4 {
 
 .produto-img {
     width: 100%;
-    aspect-ratio: 1;
+    aspect-ratio: 4 / 5;
     background: var(--creme);
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    padding: 12px;
 }
 
 .produto-img img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .produto-img-placeholder {
