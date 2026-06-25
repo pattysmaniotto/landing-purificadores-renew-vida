@@ -115,7 +115,7 @@ const REFIS = [
         preco: 589,
         precoOriginal: 594,
         parcela: '12x de R$ 58,99',
-        imagem: null,
+        imagem: 'assets/img/refil-fresh-v.webp',
         descricao: 'Tecnologia de tratamento e purificação de água.'
     },
     {
@@ -125,7 +125,7 @@ const REFIS = [
         preco: 749,
         precoOriginal: 750,
         parcela: '12x de R$ 74,99',
-        imagem: null,
+        imagem: 'assets/img/refil-fresh-nanno-v.webp',
         descricao: 'Potencializa o enriquecimento mineral da água.'
     },
     {
@@ -135,7 +135,7 @@ const REFIS = [
         preco: 589,
         precoOriginal: 594,
         parcela: '12x de R$ 58,99',
-        imagem: null,
+        imagem: 'assets/img/refil-fresh.webp',
         descricao: 'Reposição padrão para purificadores RENEW.'
     },
     {
@@ -145,7 +145,7 @@ const REFIS = [
         preco: 749,
         precoOriginal: 750,
         parcela: '12x de R$ 74,99',
-        imagem: null,
+        imagem: 'assets/img/refil-fresh-nanno.webp',
         descricao: 'Versão Nanno com enriquecimento mineral extra.'
     },
     {
@@ -155,7 +155,7 @@ const REFIS = [
         preco: 2899,
         precoOriginal: 2920,
         parcela: '12x de R$ 289,99',
-        imagem: null,
+        imagem: 'assets/img/refis-flow-click.webp',
         descricao: 'Kit com 4 refis para sistema Flow Click.'
     }
     // Removido: 4 Refis Reposição Flow Niion (esgotado no fornecedor)
