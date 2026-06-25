@@ -22,7 +22,7 @@ const PURIFICADORES = [
         preco: 3799,
         precoOriginal: 3831,
         parcela: '12x de R$ 379,99',
-        imagem: null,
+        imagem: 'assets/img/v-self-10l-premium.webp',
         descricao: 'Remove cloro e impurezas, adiciona magnésio, cálcio e potássio.'
     },
     {
@@ -32,7 +32,7 @@ const PURIFICADORES = [
         preco: 4249,
         precoOriginal: 4286,
         parcela: '12x de R$ 424,99',
-        imagem: null,
+        imagem: 'assets/img/terracota.webp',
         descricao: 'Transforma a água da torneira em água alcalina ionizada.'
     },
     {
@@ -42,7 +42,7 @@ const PURIFICADORES = [
         preco: 3089,
         precoOriginal: 3116,
         parcela: '12x de R$ 308,99',
-        imagem: null,
+        imagem: 'assets/img/v-self-10l.webp',
         descricao: 'Mesma tecnologia premium em versão compacta.'
     },
     {
@@ -52,7 +52,7 @@ const PURIFICADORES = [
         preco: 3699,
         precoOriginal: 3701,
         parcela: '12x de R$ 369,99',
-        imagem: null,
+        imagem: 'assets/img/v-self-6l-premium.webp',
         descricao: 'Tecnologia premium em formato compacto, ideal para espaços menores.'
     },
     {
@@ -62,7 +62,7 @@ const PURIFICADORES = [
         preco: 4249,
         precoOriginal: 4286,
         parcela: '12x de R$ 424,99',
-        imagem: null,
+        imagem: 'assets/img/terracota-gray.webp',
         descricao: 'Linha Cerâmica em versão cinza, com refil Nanno incluso.'
     },
     {
@@ -72,7 +72,7 @@ const PURIFICADORES = [
         preco: 2969,
         precoOriginal: 2986,
         parcela: '12x de R$ 296,99',
-        imagem: null,
+        imagem: 'assets/img/v-self-6l.webp',
         descricao: 'Compacto e eficiente, perfeito para apartamentos.'
     },
     {
@@ -82,7 +82,7 @@ const PURIFICADORES = [
         preco: 3089,
         precoOriginal: 3116,
         parcela: '12x de R$ 308,99',
-        imagem: null,
+        imagem: 'assets/img/v10-bebedouros.webp',
         descricao: 'Modelo específico para instalação em bebedouros e empresas.'
     },
     {
@@ -92,7 +92,7 @@ const PURIFICADORES = [
         preco: 4399,
         precoOriginal: 4416,
         parcela: '12x de R$ 439,99',
-        imagem: null,
+        imagem: 'assets/img/flow-niion-click.webp',
         descricao: 'Sistema de troca rápida com tecnologia avançada.'
     },
     {
@@ -102,7 +102,7 @@ const PURIFICADORES = [
         preco: 2969,
         precoOriginal: 2986,
         parcela: '12x de R$ 296,99',
-        imagem: null,
+        imagem: 'assets/img/v6-bebedouros.webp',
         descricao: 'Versão compacta para bebedouros e escritórios.'
     }
 ];
